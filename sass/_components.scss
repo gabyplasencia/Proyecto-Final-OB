@@ -1,17 +1,18 @@
-$primary-color: #0075FF;
+
+$secondary-color: #0075FF;
 
 .btn {
-    padding: 0.75rem 0.35rem;
-    font-weight: 500px;
+    padding: 0.45rem 0.80rem;
+    font-weight: 500;
     border: none;
 
-    .btn-main {
-        background-color: #0075FF;
+    &.btn-main {
+        background-color: $secondary-color;
         border-radius: 0.25rem;
         color: white;
     }
 
-    .btn-secondary {
+    &.btn-secondary {
         background-color: white;
         color: black;
     }
@@ -28,7 +29,7 @@ $primary-color: #0075FF;
     align-items: center;
 
     .icon {
-       color:#0075FF;
+       color:$secondary-color;
     }
 }
 

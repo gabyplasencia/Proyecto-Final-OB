@@ -1,14 +1,14 @@
 .btn {
-  padding: 0.75rem 0.35rem;
-  font-weight: 500px;
+  padding: 0.45rem 0.8rem;
+  font-weight: 500;
   border: none;
 }
-.btn .btn-main {
+.btn.btn-main {
   background-color: #0075FF;
   border-radius: 0.25rem;
   color: white;
 }
-.btn .btn-secondary {
+.btn.btn-secondary {
   background-color: white;
   color: black;
 }

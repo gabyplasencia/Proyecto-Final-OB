@@ -1,0 +1,28 @@
+.btn {
+  padding: 0.75rem 0.35rem;
+  font-weight: 500px;
+  border: none;
+}
+.btn .btn-main {
+  background-color: #0075FF;
+  border-radius: 0.25rem;
+  color: white;
+}
+.btn .btn-secondary {
+  background-color: white;
+  color: black;
+}
+
+.mini-icon {
+  height: 1rem;
+  width: 1rem;
+  background-color: white;
+  box-shadow: 0 0 0.15rem 0 black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mini-icon .icon {
+  color: #0075FF;
+}/*# sourceMappingURL=index.css.map */

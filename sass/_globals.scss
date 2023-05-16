@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;600;800&family=Open+Sans:wght@500;600&display=swap');
+
+$font-page: 'Mulish', sans-serif;
+$secondary-color: #0075FF;
+
+@mixin font-h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: black;
+}
+
+@mixin font-h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    color: black;
+}
+
+body {
+    font-family: $font-page;
+    font-size: 1em;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.75rem;
+}
+
+.logo {
+    justify-self: center;
+    align-self: center;
+    p{
+        font-size: 1.4em;
+        font-weight: 800;
+        color: $secondary-color;
+        padding: 0;
+        margin: 0;
+    }
+}
+ .menu {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+     ul{
+     padding: 0;
+     margin: 0;
+       li{
+        list-style: none;
+        display: inline;
+        font-size: 0.9em;
+        font-weight: 600;
+        padding: 0 0.3rem;
+       }
+   }
+        
+ }
+
+ .buttons {
+    justify-self: center;
+    align-self: center;
+}
+ 
+hr {
+    opacity: 0.4;
+}

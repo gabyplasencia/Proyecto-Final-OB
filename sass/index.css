@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;600;800&family=Open+Sans:wght@500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;600;800&display=swap");
 .btn {
   padding: 0.45rem 0.8rem;
   font-size: 0.9em;
@@ -34,10 +34,17 @@ body {
   font-size: 1em;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 nav {
   display: flex;
   justify-content: space-around;
-  padding: 0.75rem;
+  padding: 1rem;
 }
 
 .logo {
@@ -76,4 +83,30 @@ nav {
 
 hr {
   opacity: 0.4;
+}
+
+.sec-home {
+  display: flex;
+  margin-top: 5rem;
+}
+.sec-home h1 {
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: black;
+  line-height: 3.7rem;
+}
+.sec-home span {
+  color: #0075FF;
+  font-weight: 800;
+  font-size: 1rem;
+}
+.sec-home span i {
+  margin-left: 0.3rem;
+}
+.sec-home p {
+  font-weight: 800;
+}
+.sec-home img {
+  height: 23rem;
+  margin-left: 7rem;
 }/*# sourceMappingURL=index.css.map */

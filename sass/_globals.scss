@@ -56,7 +56,7 @@ nav {
         list-style: none;
         display: inline;
         font-size: 0.9em;
-        font-weight: 600;
+        font-weight: 800;
         padding: 0 0.3rem;
        }
    }
@@ -85,14 +85,27 @@ hr {
         font-size: 1rem;
         i{
             margin-left: 0.3rem;
+            color: $secondary-color;
         }
     }
     p{
-        font-weight: 800;
+        font-weight: 600;
     }
     img{
         height: 23rem;
         margin-left: 7rem;
     }
+
+    input{
+        padding: 0.45rem 0.80rem;
+    font-size: 0.9em;
+    font-weight: 500;
+    border-radius: 0.25rem;
+    border: 1px solid lightgrey;
+    }
+}
+.call-to-action{
+    display: flex;
+    gap: 1rem;
 }
 

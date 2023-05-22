@@ -202,9 +202,23 @@ hr {
 .visual-benefit {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   text-align: center;
   max-width: 20%;
   margin: 0rem 2rem;
+  height: 30rem;
+}
+.visual-benefit h3 {
+  font-size: 1.4rem;
+  font-weight: 800;
+  margin-bottom: 0.8rem;
+}
+.visual-benefit span {
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgb(110, 110, 110);
+}
+.visual-benefit a {
+  text-decoration: none;
+  color: #0075FF;
 }/*# sourceMappingURL=index.css.map */

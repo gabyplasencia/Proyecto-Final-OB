@@ -7,6 +7,8 @@
 
 $font-page: 'Mulish', sans-serif;
 $secondary-color: #0075FF;
+$secondary-font-color: rgb(110, 110, 110);
+$margin-y: 7rem;
 
 @mixin font-h1 {
     font-size: 3.5rem;
@@ -26,14 +28,14 @@ $secondary-color: #0075FF;
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin-bottom: 3.5rem;
     h2{
       @include font-h2();
     }
     p{
-      margin-bottom: 3rem;
       font-size: 1.2rem;
       font-weight: 600;
-      color: rgb(110, 110, 110);
+      color: $secondary-font-color;
     }
 }
 
@@ -96,7 +98,7 @@ hr {
 
 .sec-home {
     display: flex;
-    margin-top: 5rem;
+    margin: $margin-y 0;
 
     h1{
         @include font-h1();
@@ -138,6 +140,7 @@ hr {
 .sec-features{
     display: flex;
     flex-direction: column;
+    margin-bottom: $margin-y;
 }
 
 .title {
@@ -155,10 +158,22 @@ hr {
 .argum{
     display: flex;
     flex-direction: column;
-    max-width: 35%;
+    max-width: 30%;
     .points{
      display: flex;
      margin-right: 3rem;
+    }
+}
+
+.wrapper-2{
+    h4{
+        margin: 0.8rem 0;
+        font-size: 1.1rem;
+    }
+    span{
+        font-size: 1rem;
+        font-weight: 600;
+        color: $secondary-font-color;
     }
 }
 

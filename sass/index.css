@@ -16,17 +16,20 @@
 }
 
 .mini-icon {
-  height: 1rem;
-  width: 1rem;
+  height: 2.1rem;
+  aspect-ratio: 1;
   background-color: white;
-  box-shadow: 0 0 0 0 black;
+  box-shadow: -0.15rem 0.35rem 0.5rem rgba(106, 106, 106, 0.418);
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0.8rem 1.3rem;
 }
-.mini-icon .icon {
+.mini-icon i {
   color: #0075FF;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
 
 * {
@@ -92,7 +95,7 @@ hr {
 
 .sec-home {
   display: flex;
-  margin-top: 5rem;
+  margin: 7rem 0;
 }
 .sec-home h1 {
   font-size: 3.5rem;
@@ -136,12 +139,14 @@ hr {
 .sec-features {
   display: flex;
   flex-direction: column;
+  margin-bottom: 7rem;
 }
 
 .title {
   display: flex;
   flex-direction: column;
   text-align: center;
+  margin-bottom: 3.5rem;
 }
 .title h2 {
   font-weight: 800;
@@ -150,7 +155,6 @@ hr {
   margin-bottom: 0.8rem;
 }
 .title p {
-  margin-bottom: 3rem;
   font-size: 1.2rem;
   font-weight: 600;
   color: rgb(110, 110, 110);
@@ -167,9 +171,19 @@ hr {
 .argum {
   display: flex;
   flex-direction: column;
-  max-width: 35%;
+  max-width: 30%;
 }
 .argum .points {
   display: flex;
   margin-right: 3rem;
+}
+
+.wrapper-2 h4 {
+  margin: 0.8rem 0;
+  font-size: 1.1rem;
+}
+.wrapper-2 span {
+  font-size: 1rem;
+  font-weight: 600;
+  color: rgb(110, 110, 110);
 }/*# sourceMappingURL=index.css.map */

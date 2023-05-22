@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;600;800&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 $font-page: 'Mulish', sans-serif;
 $secondary-color: #0075FF;
 
@@ -11,8 +16,25 @@ $secondary-color: #0075FF;
 }
 
 @mixin font-h2 {
-    font-weight: 500;
+    font-weight: 800;
+    font-size: 2.5rem;
     color: black;
+    margin-bottom: 0.8rem;
+}
+
+@mixin box-title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    h2{
+      @include font-h2();
+    }
+    p{
+      margin-bottom: 3rem;
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: rgb(110, 110, 110);
+    }
 }
 
 body {
@@ -79,6 +101,9 @@ hr {
     h1{
         @include font-h1();
     }
+    div{
+    margin-bottom: 0.8rem;
+    }
     span{
         color: $secondary-color;
         font-weight: 800;
@@ -90,6 +115,7 @@ hr {
     }
     p{
         font-weight: 600;
+        margin: 1rem 0rem;
     }
     img{
         height: 23rem;
@@ -108,4 +134,32 @@ hr {
     display: flex;
     gap: 1rem;
 }
+
+.sec-features{
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    @include box-title();
+}
+
+.features{
+    display: flex;
+    justify-content: center;
+     img{
+        height: 23rem;
+    }
+}
+
+.argum{
+    display: flex;
+    flex-direction: column;
+    max-width: 35%;
+    .points{
+     display: flex;
+     margin-right: 3rem;
+    }
+}
+
 

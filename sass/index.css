@@ -29,6 +29,11 @@
   color: #0075FF;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: "Mulish", sans-serif;
   font-size: 1em;
@@ -95,6 +100,9 @@ hr {
   color: black;
   line-height: 3.7rem;
 }
+.sec-home div {
+  margin-bottom: 0.8rem;
+}
 .sec-home span {
   color: #0075FF;
   font-weight: 800;
@@ -106,6 +114,7 @@ hr {
 }
 .sec-home p {
   font-weight: 600;
+  margin: 1rem 0rem;
 }
 .sec-home img {
   height: 23rem;
@@ -122,4 +131,45 @@ hr {
 .call-to-action {
   display: flex;
   gap: 1rem;
+}
+
+.sec-features {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.title h2 {
+  font-weight: 800;
+  font-size: 2.5rem;
+  color: black;
+  margin-bottom: 0.8rem;
+}
+.title p {
+  margin-bottom: 3rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgb(110, 110, 110);
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+}
+.features img {
+  height: 23rem;
+}
+
+.argum {
+  display: flex;
+  flex-direction: column;
+  max-width: 35%;
+}
+.argum .points {
+  display: flex;
+  margin-right: 3rem;
 }/*# sourceMappingURL=index.css.map */

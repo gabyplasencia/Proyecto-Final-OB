@@ -32,6 +32,12 @@
   font-weight: 600;
 }
 
+.big-icon {
+  font-size: 6rem;
+  color: #0075FF;
+  margin-bottom: 2rem;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -186,4 +192,19 @@ hr {
   font-size: 1rem;
   font-weight: 600;
   color: rgb(110, 110, 110);
+}
+
+.benefits {
+  display: flex;
+  justify-content: center;
+}
+
+.visual-benefit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 20%;
+  margin: 0rem 2rem;
 }/*# sourceMappingURL=index.css.map */

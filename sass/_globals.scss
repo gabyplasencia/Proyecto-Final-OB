@@ -7,7 +7,7 @@
 
 $font-page: 'Mulish', sans-serif;
 $secondary-color: #0075FF;
-$secondary-font-color: rgb(110, 110, 110);
+$secondary-font-color: rgb(162, 162, 162);
 $margin-y: 7rem;
 
 @mixin font-h1 {
@@ -34,7 +34,7 @@ $margin-y: 7rem;
     }
     p{
       font-size: 1.2rem;
-      font-weight: 600;
+      font-weight: 800;
       color: $secondary-font-color;
     }
 }
@@ -232,5 +232,31 @@ hr {
     span{
         color:white;
         font-weight: 200;
+    }
+}
+
+.onboarding{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: $margin-y;
+    .steps{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        .hr{
+            width: 8rem;
+            border-top: 2px solid $secondary-font-color;
+            margin: 0rem 1rem;
+        }
+        .wrapper-5{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h4{
+                margin-top: 0.8rem;
+                font-size: 1.2rem;
+            }
+        }
     }
 }

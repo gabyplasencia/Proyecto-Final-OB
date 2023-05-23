@@ -1,13 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;600;800&display=swap");
 .btn {
   padding: 0.45rem 0.8rem;
-  font-size: 0.9em;
+  font-size: 0.9rem;
   font-weight: 500;
   border: none;
 }
 .btn.btn-main {
   background-color: #0075FF;
   border-radius: 0.25rem;
+  padding: 0.6rem 1.7rem;
   color: white;
 }
 .btn.btn-secondary {
@@ -276,4 +277,35 @@ hr {
 .onboarding .steps .wrapper-5 h4 {
   margin-top: 0.8rem;
   font-size: 1.2rem;
+}
+
+.sec-footer {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(165, 197, 247, 0.195);
+  width: 100%;
+  height: 25rem;
+  overflow: hidden;
+}
+.sec-footer .text-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  gap: 2rem;
+  margin-top: 5rem;
+  margin-left: 5rem;
+}
+.sec-footer .text-footer h2 {
+  font-weight: 800;
+  font-size: 2.5rem;
+  color: black;
+}
+.sec-footer .text-footer span {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: rgb(162, 162, 162);
+}
+.sec-footer .img-foot img {
+  transform: translate(6rem, -3rem);
 }/*# sourceMappingURL=index.css.map */

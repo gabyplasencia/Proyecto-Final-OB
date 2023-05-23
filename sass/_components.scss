@@ -3,13 +3,14 @@ $secondary-color: #0075FF;
 
 .btn {
     padding: 0.45rem 0.80rem;
-    font-size: 0.9em;
+    font-size: 0.9rem;
     font-weight: 500;
     border: none;
 
     &.btn-main {
         background-color: $secondary-color;
         border-radius: 0.25rem;
+        padding: 0.60rem 1.7rem;
         color: white;
     }
 
